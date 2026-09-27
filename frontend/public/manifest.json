@@ -1,0 +1,12 @@
+{
+  "name": "Nigrani — DoSJE Monitoring App",
+  "short_name": "Nigrani",
+  "description": "Smart Real-Time Monitoring & Inspection App for Department of Social Justice & Empowerment",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F5FA",
+  "theme_color": "#635BFF",
+  "orientation": "portrait-primary",
+  "categories": ["government", "productivity"],
+  "lang": "en-IN"
+}

@@ -1,0 +1,88 @@
+// File: src/config/schemes.js
+
+export const DOSJE_SCHEMES = [
+  {
+    id: 'pm-ajay',
+    code: 'PM-AJAY',
+    name: 'PM-AJAY',
+    fullTitle: 'Pradhan Mantri Anusuchit Jaati Abhyuday Yojana',
+    category: 'Scheduled Caste Development & Hostels',
+    budgetAllocated: '₹2,050 Cr',
+    targetBeneficiaries: 'SC Students & Rural SC Families',
+    description: 'Comprehensive development scheme combining income generation, hostel infrastructure, and residential school monitoring for Scheduled Castes.',
+    accentColor: '#635BFF',
+    softBg: '#EEEDFF',
+    iconName: 'Building2',
+  },
+  {
+    id: 'pm-yasasvi',
+    code: 'PM-YASASVI',
+    name: 'PM-YASASVI',
+    fullTitle: 'Young Achievers Scholarship Award Scheme for Vibrant India',
+    category: 'OBC/EBC/DNT Hostels & Education',
+    budgetAllocated: '₹1,420 Cr',
+    targetBeneficiaries: 'OBC, EBC, and DNT Students',
+    description: 'Provides top-class education, hostel facilities, and stipend disbursement for students belonging to Other Backward Classes, Economically Backward Classes, and De-notified Tribes.',
+    accentColor: '#3B82F6',
+    softBg: '#DBEAFE',
+    iconName: 'GraduationCap',
+  },
+  {
+    id: 'smile',
+    code: 'SMILE',
+    name: 'SMILE',
+    fullTitle: 'Support for Marginalized Individuals for Livelihood and Enterprise',
+    category: 'Garima Greh & Transgender Rehabilitation',
+    budgetAllocated: '₹365 Cr',
+    targetBeneficiaries: 'Transgender Persons & Begging Rehabilitation',
+    description: 'Provides shelter homes (Garima Greh), medical healthcare, skill development, and economic rehabilitation for marginalized individuals.',
+    accentColor: '#8B5CF6',
+    softBg: '#F3E8FF',
+    iconName: 'HeartHandshake',
+  },
+  {
+    id: 'tapas',
+    code: 'TAPAS',
+    name: 'TAPAS',
+    fullTitle: 'Training for Augmenting Productivity and Services',
+    category: 'Social Defense & De-Addiction Hubs',
+    budgetAllocated: '₹510 Cr',
+    targetBeneficiaries: 'Substance Abuse Victims & Rehabilitation Seekers',
+    description: 'Monitors Integrated Rehabilitation Centres for Addicts (IRCAs) and social defense training units with real-time biometric and compliance tracking.',
+    accentColor: '#F97316',
+    softBg: '#FFEDD5',
+    iconName: 'ShieldAlert',
+  },
+  {
+    id: 'sacred',
+    code: 'SACRED',
+    name: 'SACRED / Elder Care',
+    fullTitle: 'Senior Citizen Care, SACRED & Old Age Homes (NAPSRC)',
+    category: 'Elderly Welfare & SACRED Portal',
+    budgetAllocated: '₹680 Cr',
+    targetBeneficiaries: 'Senior Citizens & Indigent Elderly',
+    description: 'Ensures quality standards, nutritional guidelines, healthcare services, and dignity of life in Senior Citizen Homes funded under NAPSRC.',
+    accentColor: '#16A34A',
+    softBg: '#DCFCE7',
+    iconName: 'UserCheck',
+  },
+  {
+    id: 'shreyas',
+    code: 'SHREYAS',
+    name: 'SHREYAS',
+    fullTitle: 'Scheme for Higher Education Youth in Apprenticeship and Skills',
+    category: 'Higher Education Fellowships & Hostels',
+    budgetAllocated: '₹890 Cr',
+    targetBeneficiaries: 'SC/OBC Higher Education Scholars',
+    description: 'Tracks fellowship verification, hostel accommodation standards, and apprenticeship stipends for SC/OBC research scholars across central institutions.',
+    accentColor: '#0905D0',
+    softBg: '#E0E7FF',
+    iconName: 'Award',
+  },
+];
+
+export const SCHEMES = DOSJE_SCHEMES;
+
+export function getSchemeByCode(code) {
+  return DOSJE_SCHEMES.find(s => s.code.toLowerCase() === (code || '').toLowerCase()) || DOSJE_SCHEMES[0];
+}
