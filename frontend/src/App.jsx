@@ -33,25 +33,26 @@ function MainLayout() {
     setUserRole(role);
   };
 
-  if (!isAuthenticated) {
-    return (
-      <>
-        <GlobalStyles />
-        <LoginPage />
-      </>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
       <GlobalStyles />
 
-      {viewState === 'landing' ? (
+      {viewState === 'landing' && (
         <Landing onSelectRole={(role) => {
-          setUserRole(role);
-          setViewState('active');
+          if (!isAuthenticated) {
+            setViewState('login');
+          } else {
+            setUserRole(role);
+            setViewState('active');
+          }
         }} />
-      ) : (
+      )}
+
+      {viewState === 'login' && (
+        <LoginPage />
+      )}
+
+      {viewState === 'active' && (
         <>
           {userRole === 'inspector' ? (
             <div className="min-h-screen flex items-center justify-center p-4 bg-slate-900/95">

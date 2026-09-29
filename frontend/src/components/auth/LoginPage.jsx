@@ -97,20 +97,32 @@ export const LoginPage = () => {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
-                  <tr>
-                    <td className="py-2 text-[#635BFF]">Admin</td>
-                    <td className="py-2">admin@dosje.gov.in</td>
-                    <td className="py-2 font-mono bg-white px-1 rounded">admin123</td>
+                  <tr 
+                    className="cursor-pointer hover:bg-slate-200 transition-colors"
+                    onClick={() => { setEmail('admin@dosje.gov.in'); setPassword('admin123'); }}
+                    title="Click to auto-fill Admin credentials"
+                  >
+                    <td className="py-2 px-1 text-[#635BFF]">Admin</td>
+                    <td className="py-2 px-1">admin@dosje.gov.in</td>
+                    <td className="py-2 px-1 font-mono bg-white rounded">admin123</td>
                   </tr>
-                  <tr>
-                    <td className="py-2 text-[#635BFF]">Inspector</td>
-                    <td className="py-2">inspector@pmu.gov.in</td>
-                    <td className="py-2 font-mono bg-white px-1 rounded">insp123</td>
+                  <tr 
+                    className="cursor-pointer hover:bg-slate-200 transition-colors"
+                    onClick={() => { setEmail('inspector@pmu.gov.in'); setPassword('insp123'); }}
+                    title="Click to auto-fill Inspector credentials"
+                  >
+                    <td className="py-2 px-1 text-[#635BFF]">Inspector</td>
+                    <td className="py-2 px-1">inspector@pmu.gov.in</td>
+                    <td className="py-2 px-1 font-mono bg-white rounded">insp123</td>
                   </tr>
-                  <tr>
-                    <td className="py-2 text-[#635BFF]">NGO</td>
-                    <td className="py-2">ngo@ashray.org</td>
-                    <td className="py-2 font-mono bg-white px-1 rounded">ngo123</td>
+                  <tr 
+                    className="cursor-pointer hover:bg-slate-200 transition-colors"
+                    onClick={() => { setEmail('ngo@ashray.org'); setPassword('ngo123'); }}
+                    title="Click to auto-fill NGO credentials"
+                  >
+                    <td className="py-2 px-1 text-[#635BFF]">NGO</td>
+                    <td className="py-2 px-1">ngo@ashray.org</td>
+                    <td className="py-2 px-1 font-mono bg-white rounded">ngo123</td>
                   </tr>
                 </tbody>
               </table>

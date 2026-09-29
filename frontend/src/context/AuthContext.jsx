@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { login as apiLogin, getMe } from '../services/api';
 
 const AuthContext = createContext(null);
 
@@ -12,15 +11,12 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const verifyUser = async () => {
-      if (user && user.token) {
-        try {
-          const userData = await getMe();
-          setUser({ ...userData, token: user.token });
-        } catch (error) {
-          console.error("Token invalid or expired", error);
-          logout();
-        }
+    const verifyUser = () => {
+      // For frontend-only demo, we just trust the local storage user if it exists
+      if (user && user.role) {
+        // Mock successful verification
+      } else {
+        setUser(null);
       }
       setLoading(false);
     };
@@ -38,11 +34,25 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     setLoginError(null);
     try {
-      const data = await apiLogin({ email, password });
-      setUser(data);
-      return true;
+      // Mock Demo Credentials for Frontend-only Vercel Deployment
+      let mockUser = null;
+      if (email === 'admin@dosje.gov.in' && password === 'admin123') {
+        mockUser = { id: 1, name: 'Admin User', email, role: 'admin', token: 'mock-jwt-token-admin' };
+      } else if (email === 'inspector@pmu.gov.in' && password === 'insp123') {
+        mockUser = { id: 2, name: 'Inspector User', email, role: 'inspector', token: 'mock-jwt-token-insp' };
+      } else if (email === 'ngo@ashray.org' && password === 'ngo123') {
+        mockUser = { id: 3, name: 'NGO User', email, role: 'ngo', token: 'mock-jwt-token-ngo' };
+      }
+
+      if (mockUser) {
+        setUser(mockUser);
+        return true;
+      } else {
+        setLoginError("Invalid demo email or password");
+        return false;
+      }
     } catch (error) {
-      setLoginError(error.response?.data?.message || "Invalid email or password");
+      setLoginError("An error occurred during login");
       return false;
     }
   };
