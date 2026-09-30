@@ -9,7 +9,7 @@
 ![Tailwind](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?logo=tailwindcss)
 
 > 🔗 **Live Prototype:** [https://nigrani-sih.vercel.app](https://nigrani-six.vercel.app/)
-> 🎬 **Demo Video:** [Watch on YouTube](YOUR_YOUTUBE_LINK)
+> 🎬 **Demo Video:** [Watch on YouTube](https://youtu.be/DPflHOkSuJk?si=2r2ThxyYvsmHLTP-)
 > 💻 **Source Code:** [GitHub Repository](https://github.com/SuryanshSharma16a/Nigrani)
 
 ## 📌 Problem Statement
