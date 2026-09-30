@@ -91,6 +91,6 @@ The frontend will run on `http://localhost:5173`.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgements
-- **Smart India Hackathon 2025** for providing a platform to innovate for the nation.
+- **Smart India Hackathon 2026** for providing a platform to innovate for the nation.
 - **Ministry of Social Justice & Empowerment (DoSJE)** for the problem statement and continuous guidance.
 - **Technocrats Institute of Technology** for the support and resources throughout the development journey.
