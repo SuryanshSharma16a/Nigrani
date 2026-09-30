@@ -10,7 +10,7 @@
 
 > 🔗 **Live Prototype:** [https://nigrani-sih.vercel.app](https://nigrani-six.vercel.app/)
 > 🎬 **Demo Video:** [Watch on YouTube](YOUR_YOUTUBE_LINK)
-> 💻 **Source Code:** [GitHub Repository]([https://github.com/SuryanshSharma16a/Nigrani](https://github.com/SuryanshSharma16a/Nigrani))
+> 💻 **Source Code:** [GitHub Repository](https://github.com/SuryanshSharma16a/Nigrani)
 
 ## 📌 Problem Statement
 **SIH 2025 Problem Statement ID:** SIH26095
