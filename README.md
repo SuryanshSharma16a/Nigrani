@@ -2,6 +2,16 @@
 
 > A robust, full-stack monitoring and compliance platform for the Department of Social Justice & Empowerment (DoSJE)
 
+![SIH 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-blue)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Backend-Node.js%20Express-339933?logo=node.js)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)
+![Tailwind](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?logo=tailwindcss)
+
+> 🔗 **Live Prototype:** [https://nigrani-sih.vercel.app](https://nigrani-sih.vercel.app)
+> 🎬 **Demo Video:** [Watch on YouTube](YOUR_YOUTUBE_LINK)
+> 💻 **Source Code:** [GitHub Repository](https://github.com/SuryanshSharma16a/Nigrani)
+
 ## 📌 Problem Statement
 **SIH 2025 Problem Statement ID:** SIH26095
 
