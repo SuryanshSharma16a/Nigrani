@@ -13,7 +13,7 @@ export function Landing({ onSelectRole }) {
       {/* Header Section */}
       <div className="mb-12 flex flex-col items-center text-center">
         <div className="mb-4">
-          <BrandMark size={56} />
+          <BrandMark size={150} />
         </div>
         <div className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold" style={{ backgroundColor: COLOR_TOKENS.indigoSoft, color: COLOR_TOKENS.indigo }}>
           <ShieldCheck size={14} />
