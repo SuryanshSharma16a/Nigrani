@@ -17,7 +17,7 @@ export function Landing({ onSelectRole }) {
         </div>
         <div className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold" style={{ backgroundColor: COLOR_TOKENS.indigoSoft, color: COLOR_TOKENS.indigo }}>
           <ShieldCheck size={14} />
-          {APP_CONFIG.government} · SIH 2025 Prototype
+          {APP_CONFIG.government} · SIH 2026 Prototype
         </div>
         <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl" style={{ color: COLOR_TOKENS.ink }}>
           {APP_CONFIG.name}
