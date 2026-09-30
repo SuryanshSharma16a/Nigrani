@@ -80,8 +80,8 @@ It provides real-time geographic tracking, biometric/photographic evidence captu
 ## 📱 Screenshots
 
 | Landing Page | Admin Dashboard |
-|:---:|:---:|
-| ![Landing](<img width="1900" height="866" alt="image" src="https://github.com/user-attachments/assets/08ee7e93-1805-4276-a6ff-e4a4cfcad8c0" />
+|<img width="1900" height="866" alt="image" src="https://github.com/user-attachments/assets/08ee7e93-1805-4276-a6ff-e4a4cfcad8c0" />|:---:|
+| ![Landing](
 ) | ![Dashboard](<img width="1582" height="872" alt="image" src="https://github.com/user-attachments/assets/85dccd61-fba3-4451-a200-7b0d34a4466e" />
 ) |
 
