@@ -81,11 +81,15 @@ It provides real-time geographic tracking, biometric/photographic evidence captu
 
 | Landing Page | Admin Dashboard |
 |:---:|:---:|
-| ![Landing]() | ![Dashboard]() |
+| <img width="1900" height="866" alt="Screenshot 2026-09-30 102924" src="https://github.com/user-attachments/assets/6d71a1e8-46d2-4ddb-9a24-5e5b943a7355" />
+ | <img width="1582" height="872" alt="Screenshot 2026-09-30 103149" src="https://github.com/user-attachments/assets/47b24eb5-a40b-4abe-b942-136f396ec9b8" />
+|
 
 | Inspector App | CCTV Monitoring |
 |:---:|:---:|
-| ![Inspector]() | ![CCTV]() |
+| <img width="465" height="780" alt="Screenshot 2026-09-30 103245" src="https://github.com/user-attachments/assets/2578160f-39c3-4eed-a5d2-1fa8aa044742" />
+ | <img width="1578" height="868" alt="Screenshot 2026-09-30 103350" src="https://github.com/user-attachments/assets/c9bbeb31-4ac7-4584-9032-908b5f8f6870" />
+ |
 
 ## 👥 Team — Team Drishti
 
