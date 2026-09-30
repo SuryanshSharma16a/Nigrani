@@ -8,7 +8,7 @@
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)
 ![Tailwind](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?logo=tailwindcss)
 
-> 🔗 **Live Prototype:** [https://nigrani-sih.vercel.app](https://nigrani-sih.vercel.app)
+> 🔗 **Live Prototype:** [https://nigrani-sih.vercel.app](https://nigrani-six.vercel.app/)
 > 🎬 **Demo Video:** [Watch on YouTube](YOUR_YOUTUBE_LINK)
 > 💻 **Source Code:** [GitHub Repository](https://github.com/SuryanshSharma16a/Nigrani)
 
