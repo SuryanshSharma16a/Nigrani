@@ -3,7 +3,7 @@
 > A robust, full-stack monitoring and compliance platform for the Department of Social Justice & Empowerment (DoSJE)
 
 ## 📌 Problem Statement
-**SIH 2025 Problem Statement ID:** [SIH26095]
+**SIH 2025 Problem Statement ID:** SIH26095
 **Title:** Smart Real-Time Monitoring & Inspection Mobile App
 
 The Ministry of Social Justice and Empowerment (DoSJE) funds numerous Grant-in-Aid (GIA) institutions across India. Currently, the monitoring faces critical challenges:
